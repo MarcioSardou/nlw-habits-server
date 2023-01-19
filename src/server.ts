@@ -7,4 +7,4 @@ const app = Fastify()
 app.register(cors)
 app.register(appRoutes)
 
-app.listen({ port: 3333 }).then(() => console.log(`server running `))
+app.listen({ port: 3334 }).then(() => console.log(`server running `))
