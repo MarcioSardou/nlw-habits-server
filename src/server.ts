@@ -10,6 +10,6 @@ app.register(appRoutes)
 app
   .listen({
     port: 3334,
-    // host: "0.0.0.0", // pra funfar no mobile
+    host: "0.0.0.0", // pra funfar no mobile
   })
   .then(() => console.log(`server running `))
